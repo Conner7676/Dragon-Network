@@ -1,0 +1,28 @@
+# This is the main configuration file for the plugin.
+
+aliases:
+  # This is the list of aliases, you can add more by using the command /akac add
+  example-alias-gmc:
+    # This is the command that will be executed when the alias is used.
+    # There is full PAPI support, so you can use placeholders in the command.
+    # Anything between < and > will be considered an argument, so you can use them in the command.
+    command: "/gamemode creative"
+    alias: "/gmc"
+  example-alias-gms:
+    command: 
+    - "/gamemode survival"
+    # Check the wiki for more information about this.
+    #- "%message% Changed gamemode to survival!" # This is an example of how to send a message when the alias is used.
+    alias: "/gms"
+  example-alias-gma:
+    alias: "/gma"
+    command: 
+    - "/gamemode adventure"
+    - "%message% Changed gamemode to adventure!"
+  example-alias-with-arguments:
+    command: "/give %player% <item>"
+    alias: "/i <item>"
+  example-change-server: # This is an example of how to change server using an alias.
+    command: 
+    - "%change-server% hub"
+    alias: "/hub"

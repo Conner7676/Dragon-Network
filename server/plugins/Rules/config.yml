@@ -1,0 +1,17 @@
+rulesPermission: rules.view
+joinMessage: '&bType /rules to view the server rules!'
+rulesHeader: '&eServer Rules'
+noPermission: '&cYou do not have permission to do this!'
+consolePermission: You must be a player to use this command!
+rulesMessage:
+- '&e1. &aNo Swearing'
+- '&e2. &aNo Cheating'
+- '&e3. &aNo Racism'
+- '&e4. &aNo Spawn Killing'
+- '&e5. &aNo Begging for Admin'
+- '&e6. &aNo Traps'
+- '&e7. &cBreaking rules results in punshment'
+rulesCommands:
+- rules
+- laws
+- serverrules

@@ -1,7 +1,7 @@
 listener_01:
   address: 0.0.0.0:8081
   address_v6: 'null'
-  max_players: 60
+  max_players: 200
   tab_list: GLOBAL_PING
   default_server: lobby
   force_default_server: false
@@ -10,12 +10,13 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&c&l         --Dragon Network-- '
+  - '&a[Updated The Entire Server]'
   allow_motd: true
   allow_query: true
   request_motd_cache:
     cache_ttl: 7200
-    online_server_list_animation: false
+    online_server_list_animation: true
     online_server_list_results: true
     online_server_list_trending: true
     online_server_list_portfolios: false

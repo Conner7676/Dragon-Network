@@ -1,0 +1,54 @@
+messages:
+  AKACommand:
+    prefix: '&7[&cAKACommand&7] '
+    messages:
+      command-list-format:
+      - '&7 - [run value="/akac remove %id%" text="&cClick me to remove!"]&c&l[x]&r[/run]
+        &c%alias% &7- &c%command%'
+      command-test-mode-entered: '&aYou have entered test mode! Type &c/akac test
+        &aagain to exit.'
+      command-add-initial: '&7Type the command you want to create an alias for!'
+      usage-item-lore:
+      - ''
+      - '&7Most common usages of this:'
+      - '%usages%'
+      command-add-alias: '&7Type the alias you want to create for the command! Type
+        &ccancel &7to cancel. Use &c<1>, <2> &7and so on for arguments!'
+      command-remove-does-not-exist: '&cThat alias does not exist!'
+      command-test-mode-intercept: '&7AKAC has intercepted your command! It *would*
+        have been &c%command%'
+      command-add-cancelled: '&cCancelled command creation.'
+      plugin-reloaded: '&aPlugin reloaded.'
+      usage-item-name: '&7Unknown command: &c%command%'
+      usage-title: '&8Often used unknown commands'
+      command-list:
+      - '&7&m--------------&c AKA Command &7&m------------------'
+      - '%aliases%'
+      - '&7&m-----------------------------------'
+      command-remove-confirm: '&cThat alias has been removed!'
+      no-permission: '&cYou do not have permission to use this command.'
+      command-add-confirm:
+      - '&7&m-----------------------------------'
+      - ''
+      - '&7You are about to create an alias!'
+      - '&7 - Command: &c%command%'
+      - '&7 - Alias: &c%alias%'
+      - ''
+      - '[run value="/akac add confirm" text="&aClick me to confirm!"]&a&l[Confirm]&r[/run]
+        [run value="/akac add cancel" text="&cClick me to cancel!"] &c&l[Cancel]&r[/run]'
+      - '&7&m-----------------------------------'
+      command-test-mode-exited: '&cYou have exited test mode!'
+      special-handler-not-found: '&cNo special handler found for this command! (%special%)'
+      help-menu:
+      - '&7&m--------------&c AKA Command &7&m------------------'
+      - '&7/akac &c- Shows this help menu.'
+      - '&7/akac reload &c- Reloads the plugin.'
+      - '&7/akac add &c- Adds a command to the list.'
+      - '&7/akac remove &c- Removes a command from the list.'
+      - '&7/akac list &c- Lists all the commands.'
+      - '&7/akac test &c- Enters test mode, where you can test aliases!'
+      - '&7/akac usage &c- Shows the usage of unknown commands.'
+      - '&7&m-----------------------------------'
+      command-add-already-exists: '&cThat alias exists already!'
+      command-add-success: '&aSuccessfully created alias!'
+      plugin-failed-reload: '&cFailed to reload plugin.'

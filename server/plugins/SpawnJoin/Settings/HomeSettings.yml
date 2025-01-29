@@ -1,0 +1,11 @@
+DO NOT DELETE: SpawnJoin is developed and managed by Shades161
+Home Settings Version: '1.0'
+GroupSettings:
+  Default:
+    limit: 1
+  VIP:
+    limit: 5
+Groups:
+- Default
+- VIP
+- Staff

@@ -1,0 +1,450 @@
+15:41:26 [INFO] Using mbed TLS based native cipher.
+15:41:26 [INFO] Using zlib based native compressor.
+15:41:26 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:1265a99:1892
+15:41:26 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+15:41:26 [INFO] Epoll is working, utilising it!
+15:41:26 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+15:41:26 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+15:41:26 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+15:41:26 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+15:41:26 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+15:41:26 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:41:26 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:41:26 [INFO] Attempting to Jenkins download module cmd_alert v1892
+15:41:26 [INFO] Download complete
+15:41:26 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:41:26 [INFO] Attempting to Jenkins download module cmd_find v1892
+15:41:27 [INFO] Download complete
+15:41:27 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:41:27 [INFO] Attempting to Jenkins download module cmd_list v1892
+15:41:27 [INFO] Download complete
+15:41:27 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:41:27 [INFO] Attempting to Jenkins download module cmd_send v1892
+15:41:27 [INFO] Download complete
+15:41:27 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:41:27 [INFO] Attempting to Jenkins download module cmd_server v1892
+15:41:27 [INFO] Download complete
+15:41:27 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:41:27 [INFO] Attempting to Jenkins download module reconnect_yaml v1892
+15:41:27 [INFO] Download complete
+15:41:27 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:41:27 [WARNING] :>  
+15:41:27 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+15:41:27 [WARNING] :>  
+15:41:27 [WARNING] :>  This plugin wasn't tested to be 'working'
+15:41:27 [WARNING] :>  with ANY version of BungeeCord (and forks)
+15:41:27 [WARNING] :>  apart from the versions listed below:
+15:41:27 [WARNING] :>  
+15:41:27 [WARNING] :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+15:41:27 [WARNING] :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+15:41:27 [WARNING] :>  - FlameCord: 1.1.1
+15:41:27 [WARNING] :>  
+15:41:27 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+15:41:27 [WARNING] :>  
+15:41:27 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+15:41:27 [WARNING] :>  
+15:41:27 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:41:27 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+15:41:27 [SEVERE] [EaglercraftXBungee] Recieved code 403 while looking up UUID of lax1dude
+15:41:27 [INFO] Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+15:41:27 [WARNING] Could not load server icon
+java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
+	at net.md_5.bungee.api.Favicon.create(Favicon.java:80)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:83)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:285)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+15:41:27 [WARNING] Forced host server pvp is not defined
+15:41:27 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+15:41:27 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:41:27 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+15:41:27 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+15:41:27 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+15:41:27 [INFO] Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+15:41:27 [INFO] Listening on /127.0.0.1:25577
+15:41:29 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/WikidCraftANARCHY/bungee/plugins/EaglercraftXBungee/eagcert/$dl.426791e3ea9528093a8ce7254e0c3bb7b11e6971.cert
+15:41:43 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:60160]: Connected via websocket
+15:41:43 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:60160]: Origin header is null
+15:41:43 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:60160]: Logged in as 'DarkGaming7830YT'
+15:41:43 [INFO] [DarkGaming7830YT] -> UpstreamBridge has connected
+15:41:43 [WARNING] An exception was thrown by net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete()
+java.lang.NoSuchMethodError: 'void net.md_5.bungee.api.event.PostLoginEvent.<init>(net.md_5.bungee.api.connection.ProxiedPlayer)'
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:953)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+15:41:48 [INFO] [DarkGaming7830YT] -> UpstreamBridge has disconnected
+15:41:56 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:32850]: Connected via websocket
+15:41:56 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:32850]: Origin header is null
+15:41:56 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:32850]: Logged in as 'DarkGaming7830YT'
+15:41:56 [INFO] [DarkGaming7830YT] -> UpstreamBridge has connected
+15:41:56 [WARNING] An exception was thrown by net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete()
+java.lang.NoSuchMethodError: 'void net.md_5.bungee.api.event.PostLoginEvent.<init>(net.md_5.bungee.api.connection.ProxiedPlayer)'
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:953)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+15:42:01 [INFO] [DarkGaming7830YT] -> UpstreamBridge has disconnected
+15:42:08 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:52234]: Connected via websocket
+15:42:08 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:52234]: Origin header is null
+15:42:08 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:52234]: Logged in as 'DarkGaming7830YT'
+15:42:08 [INFO] [DarkGaming7830YT] -> UpstreamBridge has connected
+15:42:08 [WARNING] An exception was thrown by net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete()
+java.lang.NoSuchMethodError: 'void net.md_5.bungee.api.event.PostLoginEvent.<init>(net.md_5.bungee.api.connection.ProxiedPlayer)'
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:953)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+15:42:13 [INFO] [DarkGaming7830YT] -> UpstreamBridge has disconnected
+15:42:18 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:54264]: Connected via websocket
+15:42:18 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:54264]: Origin header is null
+15:42:18 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:54264]: Logged in as 'DarkGaming7830YT'
+15:42:18 [INFO] [DarkGaming7830YT] -> UpstreamBridge has connected
+15:42:18 [WARNING] An exception was thrown by net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete()
+java.lang.NoSuchMethodError: 'void net.md_5.bungee.api.event.PostLoginEvent.<init>(net.md_5.bungee.api.connection.ProxiedPlayer)'
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:953)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+15:42:23 [INFO] [DarkGaming7830YT] -> UpstreamBridge has disconnected
+15:43:10 [INFO] Closing listener [id: 0x4e6d7a8c, L:/127.0.0.1:25577]
+15:43:10 [INFO] Closing pending connections
+15:43:10 [INFO] Disconnecting 0 connections
+15:43:10 [INFO] Disabling plugins
+15:43:10 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:8081
+15:43:10 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+15:43:10 [INFO] [EaglercraftXBungee] Stopping skin cache HTTP client...
+15:43:12 [INFO] Closing IO threads
+15:45:16 [INFO] Using mbed TLS based native cipher.
+15:45:16 [INFO] Using zlib based native compressor.
+15:45:16 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:1265a99:1892
+15:45:16 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+15:45:16 [INFO] Epoll is working, utilising it!
+15:45:16 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+15:45:16 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+15:45:16 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+15:45:16 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+15:45:16 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+15:45:16 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:45:16 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:45:16 [INFO] Attempting to Jenkins download module cmd_alert v1892
+15:45:17 [INFO] Download complete
+15:45:17 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:45:17 [INFO] Attempting to Jenkins download module cmd_find v1892
+15:45:17 [INFO] Download complete
+15:45:17 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:45:17 [INFO] Attempting to Jenkins download module cmd_list v1892
+15:45:17 [INFO] Download complete
+15:45:17 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:45:17 [INFO] Attempting to Jenkins download module cmd_send v1892
+15:45:17 [INFO] Download complete
+15:45:17 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:45:17 [INFO] Attempting to Jenkins download module cmd_server v1892
+15:45:17 [INFO] Download complete
+15:45:17 [INFO] Attempting to update plugin from ModuleVersion(build=513, git=f6069e2) to ModuleVersion(build=1892, git=1265a99)
+15:45:17 [INFO] Attempting to Jenkins download module reconnect_yaml v1892
+15:45:17 [INFO] Download complete
+15:45:17 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:45:17 [WARNING] :>  
+15:45:17 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+15:45:17 [WARNING] :>  
+15:45:17 [WARNING] :>  This plugin wasn't tested to be 'working'
+15:45:17 [WARNING] :>  with ANY version of BungeeCord (and forks)
+15:45:17 [WARNING] :>  apart from the versions listed below:
+15:45:17 [WARNING] :>  
+15:45:17 [WARNING] :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+15:45:17 [WARNING] :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+15:45:17 [WARNING] :>  - FlameCord: 1.1.1
+15:45:17 [WARNING] :>  
+15:45:17 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+15:45:17 [WARNING] :>  
+15:45:17 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+15:45:17 [WARNING] :>  
+15:45:17 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+15:45:17 [INFO] [EaglercraftXBungee] Loading vanilla profile: lax1dude
+15:45:17 [SEVERE] [EaglercraftXBungee] Recieved code 403 while looking up UUID of lax1dude
+15:45:17 [INFO] Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+15:45:17 [WARNING] Could not load server icon
+java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
+	at net.md_5.bungee.api.Favicon.create(Favicon.java:80)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:83)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:285)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+15:45:17 [WARNING] Forced host server pvp is not defined
+15:45:17 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+15:45:17 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:1265a99:1892 by SpigotMC
+15:45:17 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+15:45:17 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+15:45:17 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+15:45:17 [INFO] Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+15:45:17 [INFO] Listening on /127.0.0.1:25577
+15:45:18 [INFO] [EaglercraftXBungee] Loaded certificate: /workspaces/WikidCraftANARCHY/bungee/plugins/EaglercraftXBungee/eagcert/$dl.426791e3ea9528093a8ce7254e0c3bb7b11e6971.cert
+15:45:26 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:48148]: Connected via websocket
+15:45:26 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:48148]: Origin header is null
+15:45:26 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:48148]: Logged in as 'DarkGaming7830YT'
+15:45:26 [INFO] [DarkGaming7830YT] -> UpstreamBridge has connected
+15:45:26 [WARNING] An exception was thrown by net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete()
+java.lang.NoSuchMethodError: 'void net.md_5.bungee.api.event.PostLoginEvent.<init>(net.md_5.bungee.api.connection.ProxiedPlayer)'
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:953)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+15:45:31 [INFO] [DarkGaming7830YT] -> UpstreamBridge has disconnected
+15:45:46 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:52156]: Connected via websocket
+15:45:46 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:52156]: Origin header is null
+15:45:46 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:52156]: Logged in as 'DarkGaming7830YT'
+15:45:46 [INFO] [DarkGaming7830YT] -> UpstreamBridge has connected
+15:45:46 [WARNING] An exception was thrown by net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete()
+java.lang.NoSuchMethodError: 'void net.md_5.bungee.api.event.PostLoginEvent.<init>(net.md_5.bungee.api.connection.ProxiedPlayer)'
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:953)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1)
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:414)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699)
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+15:45:51 [INFO] [DarkGaming7830YT] -> UpstreamBridge has disconnected
+15:46:24 [INFO] Closing listener [id: 0x42049177, L:/127.0.0.1:25577]
+15:46:24 [INFO] Closing pending connections
+15:46:24 [INFO] Disconnecting 0 connections
+15:46:25 [INFO] Disabling plugins
+15:46:25 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:8081
+15:46:25 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+15:46:25 [INFO] [EaglercraftXBungee] Stopping skin cache HTTP client...
+15:46:27 [INFO] Closing IO threads

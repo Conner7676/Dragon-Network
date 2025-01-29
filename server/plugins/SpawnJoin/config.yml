@@ -1,0 +1,112 @@
+DO NOT DELETE: SpawnJoin is developed and managed by Shades161
+Config Version: '5.2'
+Check for Updates: true
+Announce Dev Join: true
+Debug: false
+LogCommandsToFile: false
+Language: En
+Use Economy: true
+Commands:
+  Spawn:
+    Enabled: true
+    Delay: 1
+  Hub:
+    Enabled: true
+    Delay: 1
+  Lobby:
+    Enabled: true
+    Delay: 1
+  Warp:
+    Enabled: true
+    Delay: 1
+  Tpr:
+    Enabled: true
+    Delay: 1
+    Cooldown: 3600
+  Spectate:
+    Enabled: true
+    Delay: 1
+  Home:
+    Enabled: true
+    Delay: 1
+    DefaultLimit: 1
+    UseRankLimits: false
+    GlobalLimit:
+      Enabled: false
+      Limit: 3
+  Sign:
+    Enabled: true
+Inventory:
+  Warp:
+    Use: true
+    Name: '&6Warp Selector'
+    ShowCost: true
+  Hub:
+    Use: true
+    Name: '&6Hub Selector'
+    ShowCost: true
+  Lobby:
+    Use: true
+    Name: '&6Lobby Selector'
+    ShowCost: true
+  Spectate:
+    Use: true
+    Name: '&6Spectate Location Selector'
+    ShowCost: true
+  Spawn:
+    Use: true
+    Name: '&6Spawn Selector'
+    ShowCost: true
+    ShowPlayerCount: true
+  Home:
+    Use: true
+    Name: '&6Your Home Selector'
+    ShowWorld: true
+  ListCommandOverride: true
+Join:
+  Enabled: true
+  AllowBypass: true
+  Worlds:
+    All: true
+    List:
+    - minigames
+    - exampleWorld1
+  Command: Hub
+  Location:
+    Hub: ExampleHub
+    Lobby: ExampleLobby
+    Warp: ExampleWarp
+    Spawn: ExampleWorldName
+TPR:
+  Max: 1000
+  Worlds:
+  - world
+  - ExampleWorld1
+Spawn:
+  PerWorld: true
+  Save to File: true
+  Default:
+    World: world
+Respawn:
+  Use: true
+  PerWorld: true
+  Default:
+    World: world
+Signs:
+  Log: false
+  UseBreakPermission: true
+NOTIFICATIONS:
+  Spawn: true
+  Hub: true
+  Lobby: true
+  Warp: true
+  Spectate: true
+  Home: true
+  Respawn: true
+  Tpr: true
+  TprAllowed: true
+  Bypass: true
+  Perm: true
+  Args: true
+  SpawnJoin: true
+  Update: true

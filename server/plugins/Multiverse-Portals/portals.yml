@@ -1,0 +1,11 @@
+portals:
+  Survival:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: DarkGaming7830YT
+    location: 334.0,97.0,187.0:335.0,101.0,191.0
+    world: world

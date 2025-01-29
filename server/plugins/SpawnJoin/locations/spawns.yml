@@ -1,0 +1,12 @@
+DO NOT DELETE: SpawnJoin is developed and managed by Shades161
+Spawns Version: '1.0'
+Spawns:
+  world:
+    world: world
+    x: 305.3195061404544
+    y: 102.0
+    z: 189.36819561623787
+    yaw: -92.85013
+    pitch: 85.65
+    item: 2
+    cost: 0.0

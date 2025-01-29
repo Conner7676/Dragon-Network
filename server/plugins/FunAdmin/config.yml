@@ -1,0 +1,20 @@
+# Config.yml for FunAdmin v4.0
+# 
+# LOGINMESSAGE: Here, you can set wether you want the console to send login message(s) on startup/logoff.
+# 
+# SMOKEONRUN: When a player runs, smoke will fly out behind them.
+# 
+# FIREWORKBOW: Shoot an arrow, watch the effects.
+# 
+# BETTEREXPLOSIONS: Blocks will fly on explode.
+# 
+# USEKITSCOMPATIBLEEXPLOSIONS: This will make better explosions compatible with kits. However, it may make explosions more laggy when this is on. (You will need to enable kits, and better explosions for this to work).
+# 
+# USEKITS: This allows the use of the /kit command.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+loginmessage: true
+smokeonrun: false
+fireworkbow: false
+betterexplosions: false
+usekitscompatibleexplosions: false
+usekits: true

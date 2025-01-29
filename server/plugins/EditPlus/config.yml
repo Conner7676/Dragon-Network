@@ -1,0 +1,6 @@
+# Configuration for NoiseGeneratorPlugin
+settings:
+  blocks_per_tick: 1000
+  default_size: 0.02
+  default_strength: 10.0
+  default_round_value: 1

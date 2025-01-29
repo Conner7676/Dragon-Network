@@ -1,0 +1,108 @@
+# Server Selector GUI
+# The ID of this inventory is 'serverselector' which you can open using the [MENU] action (e.g. "[MENU] serverselector").
+# You can create more custom GUIs, just copy this entire file and paste a new one in the menus directory. The name of the file is the menu ID.
+#
+# PLAYER HEADS
+#   You can have player heads, using player names, base64 or HeadDatabase IDs.
+#   Examples
+#     Username (must have logged into the server once)
+#       material: PLAYER_HEAD
+#       username: <name>
+#
+#     Base64
+#       material: PLAYER_HEAD
+#       base64: <base64 id>
+#
+#     HeadDatabase
+#       material: PLAYER_HEAD
+#       hdb: <hdb id>
+#
+# ITEM FLAGS
+#   You can add flags to the item (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
+#   Example:
+#     item_flags:
+#       - HIDE_ATTRIBUTES
+#       - HIDE_DESTROYS
+#       - HIDE_ENCHANTS
+#       - HIDE_PLACED_ON
+#       - HIDE_POTION_EFFECTS
+#       - HIDE_UNBREAKABLE
+#
+# ITEM ACTIONS
+#   All item actions can be found here https://wiki.lewisdev.fun/free-resources/deluxehub/action-types
+
+# Slots of the GUI
+slots: 54
+
+# Title of the GUI
+title: "Select Server"
+
+# Automatically update open inventories.
+# This can be used to update placeholders in the GUI.
+refresh:
+  enabled: false
+  rate: 40
+
+# The items inside the GUI can be listed here
+items:
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
+  oneblock:
+    material: GRASS_BLOCK
+    slot: 19
+    amount: 1
+    glow: true
+    display_name: '&eOneBlock'
+    lore:
+      - '&7New Update'
+      - '&aClick to Play!'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &eOneBlock'
+      - '[CONSOLE] mvtp %player% oneblock'
+      - '[MESSAGE] &7 Welcome to: &eOneBlock'
+      # For multi-world servers using Multiverse-Core, use the action:
+      # - '[CONSOLE] mvtp %player% world'
+  survival:
+    material: DIRT
+    slot: 25
+    amount: 1
+    glow: false
+    display_name: '&aSurvival'
+    lore:
+      - '&7Join now!'
+      - '&aBeta Mode'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &eSurvival'
+      - '[CONSOLE] mvtp %player% survival'
+      - '[MESSAGE] &7Note &cSurvival &7 Is only In &aBeta Mode'
+  Hub:
+    material: Diamond
+    slot: 4
+    amount: 1
+    glow: false
+    display_name: '&5Hub'
+    lore:
+      - '&7Right click to Join'
+      - '&aThis is main Lobby'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &eMain Hub'
+      - '[CONSOLE] mvtp %player% hub' 
+      - '[MESSAGE] &7Welcome back &b%player% &7To: &e Main Hub'
+  BEDWARS:
+    material: BED
+    slot: 40
+    amount: 1
+    glow: TRUE
+    display_name: '&c&kBedWars'
+    lore:
+      - '&7Cant Join'
+      - '&aComing Soon'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &c&kBedwars'
+      - '[MESSAGE] &7 Failed to send you to &c&kBedWars'  
+

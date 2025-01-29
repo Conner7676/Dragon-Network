@@ -1,0 +1,13 @@
+custom-commands:
+  server_oneblock:
+    command: /server oneblock
+    type: RUN_COMMAND
+    runcmd:
+    - '/mvtp oneblock'
+    permission-required: false
+  server_oneblock:
+    command: /server survival
+    type: RUN_COMMAND
+    runcmd:
+    - '/mvtp survival'
+    permission-required: false
